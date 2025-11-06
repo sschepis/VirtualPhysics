@@ -225,25 +225,39 @@ By using gravity as a metaphor for variable sharing, each moon can directly acce
 
 Any object that extends Particle can feel the effects of Gravity
 
-* ** Examples and sample code are coming soon **  
 ## Get Started:
 
-* **Download the library**:
+* **Quick Start**:
 
-    The quickest way to use it is to clone it, then
-    open the VirtualPhysics directory using IntelliJ.   
-    Intellij has full support for Kotlin.   There is nothing to "install" since VirtualPhysics has no dependencies beyond Kotlin itself and the JVM.
+    ```bash
+    git clone https://github.com/sschepis/VirtualPhysics.git
+    cd VirtualPhysics
+    ./gradlew build
+    ```
+    
+    Open the VirtualPhysics directory using IntelliJ IDEA.   
+    IntelliJ has full support for Kotlin. There is nothing to "install" since VirtualPhysics has no dependencies beyond Kotlin itself and the JVM.
 
+* **Documentation**:
+    - **[Getting Started Guide](GETTING_STARTED.md)** - Complete tutorial for beginners
+    - **[API Reference](documentation/api/)** - Detailed API documentation
+    - **[Contributing Guide](CONTRIBUTING.md)** - How to contribute to the project
+    - **[Comparison Guide](COMPARISON.md)** - Virtual Physics vs traditional approaches
+    - **[UML Diagrams](documentation/uml/)** - Visual understanding of physics-code relationships
 
-* **Review Documentation and UML diagrams:**
-    The UML diagrams will help you gain a comprehensive understanding of the intricate relationship between programming and physics.  Many class files include Wikipedia links, allowing you to explore particle details and observe how their patterns are interpreted and implemented in the programs.
+* **Examples**:
+    - **[REST API Example](examples/rest-api/)** - Efficient data transmission (90% smaller than JSON)
+    - **[Data Binding Example](examples/data-binding/)** - Conductors, diodes, and capacitors
+    - **[Rollback Example](examples/rollback/)** - Built-in undo/redo functionality
+    - **More examples coming soon!**
 
-* **Dive into our detailed documentation:** coming soon.
+* **Video Tutorials**:  
+    - Intro to Virtual Physics: https://www.youtube.com/watch?v=0u_rUdT7cTg&t=99s
 
-* **Join the discussion on our forum:**  Available Now.
-
-* **Watch our video tutorials:**  
-      Intro to Virtual Physics:   https://www.youtube.com/watch?v=0u_rUdT7cTg&t=99s
+* **Community**:
+    - Join the discussion on our forum
+    - Open issues on GitHub
+    - Contribute examples and documentation
 
 
 

@@ -256,8 +256,8 @@ Any object that extends Particle can feel the effects of Gravity
 
 **Virtual Physics is Ideally used when writing Kotlin on both server and client side**
 
-    If you are using Kotlin with React or Jetpack Compose this can save you a lot of time by elminating the 
-    need for JSON messaging or using Protoncol buffers to send data and/or metadata
+    If you are using Kotlin with React or Jetpack Compose this can save you a lot of time by eliminating the 
+    need for JSON messaging or using Protocol buffers to send data and/or metadata
     Simply .emit() and absorb and share the same object on both sides.
 
 ---

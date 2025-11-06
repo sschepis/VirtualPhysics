@@ -20,9 +20,7 @@ package symmetrical.tooling.codegen
  */
 
 import kotlin.reflect.KClass
-import kotlin.reflect.KProperty1
 import kotlin.reflect.full.memberProperties
-import kotlin.reflect.jvm.javaField
 
 /**
  * Tool to generate Atom classes from existing Kotlin classes.
@@ -41,9 +39,6 @@ class AtomGenerator {
     fun <T : Any> generateAtom(kClass: KClass<T>, packageName: String = "symmetrical.dictionary.atoms"): String {
         val className = kClass.simpleName ?: "GeneratedAtom"
         val atomClassName = "${className}Atom"
-        
-        val properties = kClass.memberProperties
-        val firstProperty = properties.firstOrNull()
         
         val code = StringBuilder()
         

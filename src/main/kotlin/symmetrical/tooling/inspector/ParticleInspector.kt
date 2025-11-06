@@ -75,7 +75,8 @@ class ParticleInspector {
         }
         
         // Electron count is not directly accessible via public API
-        val electronCount = 0
+        // Using -1 to indicate value is not available (as opposed to 0 which could be a valid count)
+        val electronCount = -1
         
         return ParticleState(
             type = "Atom",

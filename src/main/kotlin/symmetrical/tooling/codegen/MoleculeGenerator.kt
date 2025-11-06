@@ -20,7 +20,6 @@ package symmetrical.tooling.codegen
  */
 
 import kotlin.reflect.KClass
-import kotlin.reflect.KProperty1
 import kotlin.reflect.full.memberProperties
 
 /**

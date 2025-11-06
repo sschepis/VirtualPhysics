@@ -176,7 +176,7 @@ class SchemaMigrator {
             append("): $moleculeName {\n")
             
             schema.fields.forEach { field ->
-                append("        ${field.name}Atom.with($${field.name})\n")
+                append("        ${field.name}Atom.with(${field.name})\n")
                 append("        bind(${field.name}Atom)\n")
             }
             

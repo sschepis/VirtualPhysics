@@ -2,6 +2,9 @@ package examples.databinding
 
 import symmetrical.physics.atomic.atoms.Atom
 
+// String multiplication extension for prettier output
+private operator fun String.times(n: Int): String = this.repeat(n)
+
 /**
  * Virtual Physics Data Binding Examples
  * 
@@ -251,6 +254,3 @@ fun main() {
     println("✓ Perfect for: Forms, State Management, Reactive UIs")
     println("=" * 60)
 }
-
-// String multiplication extension for prettier output
-private operator fun String.times(n: Int): String = this.repeat(n)

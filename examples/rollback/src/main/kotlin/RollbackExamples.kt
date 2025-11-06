@@ -3,6 +3,9 @@ package examples.rollback
 import symmetrical.physics.atomic.atoms.Atom
 import symmetrical.physics.atomic.substance.ions.Compound
 
+// String multiplication extension for prettier output
+private operator fun String.times(n: Int): String = this.repeat(n)
+
 /**
  * Document structure for demonstrating rollback
  */
@@ -272,6 +275,3 @@ fun main() {
     println("✓ Physics-inspired metaphor (nuclear beta decay)")
     println("=" * 60)
 }
-
-// String multiplication extension for prettier output
-private operator fun String.times(n: Int): String = this.repeat(n)
